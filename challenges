@@ -1,0 +1,56 @@
+DISTINCT Values: List of all unique replacement costs in the movie database.
+
+Question: What’s the lowest replacement cost?
+Answer: 9.99
+CASE and GROUP BY: Group films into cost ranges (low, medium, high) and count how many films fall into each range.
+
+Question: How many films have a replacement cost in the "low" group?
+Answer: 514
+JOIN (Title, Length, Category): List the movie titles, lengths, and category names of films filtered by Drama and Sports, ordered by length.
+
+Question: Which category has the longest film, and how long is it?
+Answer: Sports, 184 minutes
+JOIN & GROUP BY (Movies per Category): Overview of how many movies there are in each category.
+
+Question: Which category is the most common among films?
+Answer: Sports with 74 titles
+JOIN & GROUP BY (Movies per Actor): List of actors and the number of movies they have appeared in.
+
+Question: Which actor appears in the most movies?
+Answer: Susan Davis with 54 movies
+LEFT JOIN (Addresses without Customers): Identify addresses that are not associated with any customer.
+
+Question: How many addresses are not associated with any customer?
+Answer: 4
+JOIN & GROUP BY (Sales by Customer City): Overview of sales by customer city, not store city.
+
+Question: Which city has the most sales, and what is the total amount?
+Answer: Cape Coral with 221.55 total sales
+JOIN & GROUP BY (Revenue by Country, City): Overview of revenue grouped by "country, city".
+
+Question: Which country and city has the least sales?
+Answer: United States, Tallahassee with 50.85
+Uncorrelated Subquery (Average Sales per Staff): Calculate average sales amount per customer by staff_id.
+
+Question: Which staff_id makes more revenue on average per customer?
+Answer: Staff_id 2 with 56.64 average revenue per customer
+EXTRACT + Uncorrelated Subquery (Average Daily Sunday Revenue): Show the average daily revenue of all Sundays.
+
+Question: What is the daily average revenue of all Sundays?
+Answer: 1410.65
+Correlated Subquery (Movies Longer than Average Length per Cost Group): List movies longer than the average length in each replacement cost group.
+
+Question: Which two movies are the shortest on that list and how long are they?
+Answer: CELEBRITY HORN and SEATTLE EXPECTATIONS, both with 110 minutes
+Uncorrelated Subquery (Average Customer Lifetime Value by District): Calculate the average customer lifetime value grouped by district.
+
+Question: Which district has the highest average customer lifetime value?
+Answer: Saint-Denis with an average lifetime value of 216.54
+Correlated Query (Total Payments per Film Category): List payments, amounts, and film category totals.
+
+Question: What is the total revenue for the 'Action' category, and the lowest payment_id in that category?
+Answer: 4375.85 total revenue, payment_id 16055
+Bonus Challenge - Correlated and Uncorrelated Subqueries (Top Revenue per Film for Each Category): List the top revenue-generating film for each category.
+
+Question: Which is the top-performing film in the Animation category?
+Answer: DOGMA FAMILY with 178.70
