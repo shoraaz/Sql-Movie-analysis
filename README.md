@@ -1,16 +1,22 @@
-# Sql-Movie-analysis
+# SQL Movie Analysis
 
+> 📦 **Archived learning project.** Kept public for reference; not actively maintained.
 
-# Overview
+## What this is
+A set of SQL business-insight questions answered against a movie database —
+practising joins, aggregations, grouping, and subqueries to pull answers from
+relational data.
 
-This project consists of a series of SQL challenges designed to assess and enhance data analysis skills using a movie rental database. The tasks cover a wide range of SQL concepts such as DISTINCT, JOINs, GROUP BY, CASE, subqueries, and aggregations. The goal is to extract insights from the dataset and answer specific business-related questions using optimized SQL queries.
+## Contents
+- `insight questions` — the analytical questions
+- `solutions` — the SQL queries that answer them
 
-# Project Objective
-The main objective of this project is to write SQL queries to solve 14 different challenges (10 main and 1 bonus challenge) involving data extraction and manipulation in a movie rental database. The final goal is to derive key business insights from various metrics like replacement costs, revenue per customer, average sales, lifetime customer value, and more.
+## What it demonstrates
+- Writing analytical SQL (joins, GROUP BY, aggregates, subqueries)
+- Translating business questions into queries
 
-Skills Demonstrated
-SQL Data Retrieval (DISTINCT, SELECT)
-Advanced Querying Techniques (JOINs, subqueries, correlated subqueries)
-Data Aggregation and Grouping (GROUP BY, COUNT, SUM, AVG)
-Filtering and Sorting Data (WHERE, ORDER BY, LIMIT)
-Complex Calculations and Conditional Logic (CASE statements)
+## Status
+Early SQL practice, archived for reference. My current focus is production
+ML/MLOps — see
+[promo-roi-platform](https://github.com/shoraaz/promo-roi-platform) and
+[ai-interview-coach](https://github.com/shoraaz/ai-interview-coach).
